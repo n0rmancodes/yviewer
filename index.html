@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>YViewer</title>
+		<link href="css/style.css" rel="stylesheet">
+	</head>
+	<body>
+		<h1>YViewer</h1>
+		<p>YViewer is a minimal YAWCAM camera viewer. Disclaimer: Password protected or cameras with advanced menus cameras are not supported yet.</p>
+		<noscript>YViewer requires Javascript.</noscript>
+		<input autocomplete="off" id="url" placeholder="Insert IP of your cam.">
+		<button onclick="openC()">Open</button>
+		<div id="viewer" style="display:none;">
+			<img id="base"><br>
+			<button onclick="togg()" id="pp">Pause</button>
+		</div>
+		<script src="js/app.js"></script>
+	</body>
+</html>
